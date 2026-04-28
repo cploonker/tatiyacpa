@@ -50,6 +50,18 @@ p { margin: 0 0 1em; }
 .topbar a { color: #ffffff; }
 .topbar__contact span { margin-right: 1rem; }
 .topbar__contact span:last-child { margin-right: 0; }
+.topbar__logins { display: flex; gap: 0.5rem; align-items: center; }
+.topbar__logins a {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid #1aa3b2;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.15s ease;
+}
+.topbar__logins a:hover { background: #1aa3b2; text-decoration: none; }
+.topbar__logins a + a { margin-left: 0; }
 
 /* ===== Header / Nav ===== */
 .site-header {
