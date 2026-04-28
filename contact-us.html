@@ -79,7 +79,7 @@
         <div>
           <div class="card">
             <h3 class="mt-0">Send us a message</h3>
-            <form action="https://formspree.io/f/your-form-id" method="POST" novalidate>
+            <form id="contact-form" action="mailto:askcpa@tatiyacpa.com" method="POST" enctype="text/plain" novalidate>
               <div class="field">
                 <label for="name">Name</label>
                 <input id="name" name="name" type="text" required autocomplete="name" />
@@ -109,7 +109,8 @@
                 <textarea id="message" name="message" required></textarea>
               </div>
               <button class="btn btn-primary" type="submit">Send message</button>
-              <p class="form-note" style="margin-top:1rem;">By submitting this form you agree to be contacted by Tatiya CPA PC. We respect your privacy.</p>
+              <p class="form-note" style="margin-top:1rem;">Submitting opens your email app with this message addressed to <a href="mailto:askcpa@tatiyacpa.com">askcpa@tatiyacpa.com</a>. You can also email us directly at any time.</p>
+              <p id="contact-form-status" class="form-note" style="margin-top:0.5rem;color:#1aa3b2;display:none;">Opening your email app&hellip; if nothing happens, please email <a href="mailto:askcpa@tatiyacpa.com">askcpa@tatiyacpa.com</a> directly.</p>
             </form>
           </div>
         </div>
