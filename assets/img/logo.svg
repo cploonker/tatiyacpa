@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" role="img" aria-label="Tatiya CPA - CPAs You Can Turn To Year-round - Tax, Accounting, Advisory">
+  <defs>
+    <style>
+      .navy { fill: #0a2c66; }
+      .teal { fill: #1aa3b2; }
+      .navy-stroke { stroke: #0a2c66; fill: none; stroke-width: 8; stroke-linecap: round; }
+      .teal-stroke { stroke: #1aa3b2; fill: none; stroke-width: 8; stroke-linecap: round; }
+      .wordmark { font-family: "Merriweather", "Times New Roman", serif; font-weight: 700; }
+      .tag { font-family: "Merriweather", "Times New Roman", serif; font-style: italic; font-weight: 700; fill: #0a2c66; }
+      .pillars { font-family: "Inter", Arial, sans-serif; font-weight: 600; fill: #0a2c66; letter-spacing: 4px; }
+    </style>
+  </defs>
+
+  <!-- Wave: two arcs swooping right -->
+  <path class="navy-stroke" d="M 60 80 C 200 30, 360 30, 540 90" />
+  <path class="teal-stroke" d="M 90 110 C 230 60, 380 60, 555 115" />
+
+  <!-- Wordmark: TATIYA (navy) CPA (teal) -->
+  <text x="300" y="220" class="wordmark navy" font-size="110" text-anchor="middle">
+    <tspan class="navy">TATIYA </tspan><tspan class="teal">CPA</tspan>
+  </text>
+
+  <!-- Tagline rule + dots -->
+  <line x1="80" y1="262" x2="135" y2="262" stroke="#1aa3b2" stroke-width="3" />
+  <line x1="465" y1="262" x2="520" y2="262" stroke="#1aa3b2" stroke-width="3" />
+  <text x="300" y="270" class="tag" font-size="26" text-anchor="middle">CPAs You Can Turn To Year-round</text>
+
+  <!-- Pillars: TAX • ACCOUNTING • ADVISORY -->
+  <text x="300" y="315" class="pillars" font-size="22" text-anchor="middle">
+    TAX <tspan fill="#1aa3b2">&#8226;</tspan> ACCOUNTING <tspan fill="#1aa3b2">&#8226;</tspan> ADVISORY
+  </text>
+</svg>

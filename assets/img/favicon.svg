@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#0a2c66"/>
+  <path d="M8 22 C 24 12, 40 12, 56 24" stroke="#1aa3b2" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <text x="32" y="50" text-anchor="middle" font-family="Merriweather, serif" font-weight="700" font-size="24" fill="#ffffff">T</text>
+</svg>
