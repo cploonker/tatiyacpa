@@ -73,12 +73,12 @@ p { margin: 0 0 1em; }
   text-decoration: none;
 }
 .brand img {
-  height: 64px;
+  height: 72px;
   width: auto;
   display: block;
 }
 @media (max-width: 480px) {
-  .brand img { height: 52px; }
+  .brand img { height: 56px; }
 }
 
 .nav-toggle {
